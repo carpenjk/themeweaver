@@ -7,7 +7,7 @@
     "prebuild": "rimraf lib",
     "build": "babel src -d lib --ignore ./src/jest,./src/test_themes",
     "test": " jest",
-    "semantic-release": "semantic-release",
+    "semantic-release": "semantic-release --branches main",
     "commit": "git-cz"
   },
   "repository": {
