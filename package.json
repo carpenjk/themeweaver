@@ -9,7 +9,8 @@
     "prepublishOnly": "npm run build",
     "test": " jest",
     "semantic-release": "semantic-release --branches main",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "forceRelease": ""
   },
   "repository": {
     "type": "git",
